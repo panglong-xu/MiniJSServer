@@ -1,1 +1,1 @@
-call pm2 reload ecosystem.config.js --node-args="--max-old-space-size=4096" --env=production
+pm2 reload ecosystem.config.js --node-args="--max-old-space-size=4096" --env=production
