@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "tl-mini-server",
-      script: "bin\\www",
+      script: "bin/www",
       env: {
         NODE_ENV: "production"
       },
